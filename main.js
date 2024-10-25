@@ -18,8 +18,7 @@ import neptuneTexture from "./src/images/neptune.jpg";
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
-const pointLight1 = new THREE.PointLight(0xffffff, 4, 10000);
-pointLight1.position.set(200, 200, 200);
+const pointLight1 = new THREE.PointLight(0xffffff, 25000, 100000);
 const scene = new THREE.Scene();
 scene.add(pointLight1);
 
